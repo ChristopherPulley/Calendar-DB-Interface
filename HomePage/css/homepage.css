@@ -1,0 +1,252 @@
+/* Christopher Pulley */
+/* homepage.css */
+
+/* ---------------------- HTML Tags ----------------------------*/
+
+header {
+    width: auto;    
+}
+
+body {
+    width: 1333px;  
+    background-color: green;
+}
+
+section {
+    float: right;
+    width: auto;
+    height: auto;
+}
+
+nav {
+    float: left;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+caption {
+    font-size: 150%;
+    padding: 10px;
+}
+
+span {
+    font-weight: bold;
+    color: darkred;
+}
+
+th {
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: solid black 1px;
+}
+
+td {
+    height: 175px;
+    border: solid black 1px;
+    vertical-align: top;
+}
+
+nav a {
+    color: white
+}
+
+nav a:visited {
+    color: red;
+}
+
+nav a:hover {
+    color: purple;
+}
+
+button {
+    color:  red;
+    margin-bottom: 10px;
+    font-size: 60%;
+    font-weight: bold;
+    text-align:  center;
+    width: 15%;
+}
+
+/* -------------------------- Classes ----------------------------*/
+
+.textBox {
+    background-color: white;
+    border: solid black;
+    border-radius: 10px; 
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.backGroundGradient {
+    background-image: -o-linear-gradient(270deg,rgba(60,46,244,1.00) 0%,rgba(148,28,28,1.00) 99.48%);
+	background-image: -webkit-linear-gradient(270deg,rgba(60,46,244,1.00) 0%,rgba(148,28,28,1.00) 99.48%);
+	background-image: -moz-linear-gradient(270deg,rgba(60,46,244,1.00) 0%,rgba(148,28,28,1.00) 99.48%);
+    background-image: linear-gradient(180deg,rgba(60,46,244,1.00) 0%,rgba(148,28,28,1.00) 99.48%);
+}
+
+.backGroundGradient2 {
+    background-image: -o-linear-gradient(270deg,rgba(161,197,248,1.00) 0%,rgba(0,116,255,1.00) 100%);
+	background-image: -webkit-linear-gradient(270deg,rgba(161,197,248,1.00) 0%,rgba(0,116,255,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(161,197,248,1.00) 0%,rgba(0,116,255,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(161,197,248,1.00) 0%,rgba(0,116,255,1.00) 100%);
+}
+
+.anchorLink {
+    color: red;
+        text-align: center;
+}
+
+.anchorLink:hover {
+    color: purple;
+}
+
+/* ---------------------------- ID's ----------------------------  */
+
+#linkBox {
+    width: 20%;
+    min-width: 250px;
+    float: left;
+}
+
+#calendarTableContainer {
+	overflow-x: auto;
+	border: 1px solid black;
+}
+
+#calendarTable {
+	table-layout: fixed;
+	min-width: 1000px;
+}
+
+#calendarTable h4 {
+    font-size: 150%;
+    font-weight: bold;
+    background-color: #32D718;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+#calendarTable h5 {
+    font-size: 150%;
+    font-weight: bold;
+    color: gray;
+    background-color: lightgreen;
+    padding: 5px;
+    margin-top: -15px;
+}
+
+#calendarTable h6 {
+    margin-top: -15px;
+    margin-left: 5px;
+}
+
+#calendarTable a {
+    text-decoration: none;
+}
+
+#calendarTable a:hover {
+    cursor: pointer;
+    color: darkred;
+}
+
+#currentDay {
+    background-image: -o-linear-gradient(270deg,rgba(60,46,244,1.00) 0%,rgba(148,28,28,1.00) 99.48%);
+	background-image: -webkit-linear-gradient(270deg,rgba(60,46,244,1.00) 0%,rgba(148,28,28,1.00) 99.48%);
+	background-image: -moz-linear-gradient(270deg,rgba(60,46,244,1.00) 0%,rgba(148,28,28,1.00) 99.48%);
+    background-image: linear-gradient(180deg,rgba(60,46,244,1.00) 0%,rgba(148,28,28,1.00) 99.48%);
+}
+
+#prevButton {
+   float: left;
+}
+
+#nextButton {
+   float: right;
+}
+
+
+/* ----------------------------- Styles for Calendar Control Page --------------------------- */
+
+/* ------------------ HTML --------------------------*/
+
+fieldset {
+    width: auto;
+    margin: 10px;
+    border: solid black;
+    border-radius: 5px;
+    border-color: darkred;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+label {
+    margin: 10px;
+}
+
+input, textarea {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* --------------------- Classes -------------------------*/
+
+.dataBox {
+    border: solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+    width: 1020;  
+    height: 593px;
+    float: right;
+}
+
+.eventBox {
+    display: inline-table;
+    padding-bottom: 20px;
+    padding-right: 15px;
+}
+
+/* ------------------------ID's -------------------------- */
+
+
+#loginBox {
+    float: left;
+    width: 270px;
+}
+#eventSubmitBox {
+    margin: 10px 0px;
+}
+
+#reqAlertText {
+    color: darkred;
+}
+
+#DataBaseResponseBox {
+
+    background-color: white;
+    width: Auto;
+    min-width: 60%;
+    overflow: auto;
+    margin: 10px;
+}
+#queryOutputBox {
+
+    background-color: white;
+    width: Auto;
+    min-width: 65%;
+    overflow: auto;
+    margin: 10px;
+}
+
+#eventColor {
+    margin-top: 11px;
+    margin-left: 8px;
+}
+

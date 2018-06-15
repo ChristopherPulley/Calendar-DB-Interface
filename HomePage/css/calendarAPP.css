@@ -1,0 +1,487 @@
+/* CSS For Homepage and Calendar Control */
+
+/* ---------------------- HTML Tags ----------------------------*/
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 1333px;  
+    background-color: green;
+}
+
+header {
+    width: 1307px;    
+}
+
+header h3 {
+    margin: 5px;
+}
+
+nav {
+    float: left;
+    width: 275px;
+}
+
+section {
+    float: right;
+    width: 995px;
+    height: 625px;
+    background-color: white;
+}
+
+fieldset {
+    height: 230px;
+}
+
+footer {
+    width: 1310px;
+    clear: both;
+    text-align: center;
+}
+
+footer h6 {
+    margin: 5px;
+}
+
+input {
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+/* ----------------------- Classes -----------------------------*/
+
+.backGroundGradient2 {
+    background-image: -o-linear-gradient(270deg,rgba(161,197,248,1.00) 0%,rgba(0,116,255,1.00) 100%);
+	background-image: -webkit-linear-gradient(270deg,rgba(161,197,248,1.00) 0%,rgba(0,116,255,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(161,197,248,1.00) 0%,rgba(0,116,255,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(161,197,248,1.00) 0%,rgba(0,116,255,1.00) 100%);
+}
+
+.blkBorder {
+    border: solid black 3px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.grayBorderThin {
+    border: solid #acacac 1px;
+}
+
+.marginAuto {
+    margin: 10px auto 0px auto;
+}
+
+.tableContainer {
+    width: 965px;
+    height: 250px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: white;
+}
+
+.astkSpan {
+    color: darkred;
+}
+
+.inputColor {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 22px;
+}
+
+.columnSelectList {
+    width: 145px;
+}
+
+
+/* ------------------------- ID's ------------------------------*/
+
+#tableDisplayDiv {
+    overflow-y: auto;
+    text-align: center;
+    padding: 0px, 5px, 0px, 0px;
+}
+
+#tableDisplayDiv table {
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+#tableDisplayDiv th {
+    border: solid black 1px;
+    background-color: #00ff00;
+    color: black;
+}
+
+#tableDisplayDiv td {
+    border: solid black 1px;
+
+    vertical-align: center;
+    margin: 0px;
+}
+
+/* -------------------- Table Head Class and ID's ------------------------*/
+
+.tableHead {
+    padding: 5px;
+}
+
+.tableData {
+    padding: 5px;
+}
+
+/* ---------------------------------------------------------------------- */
+
+#loginBox {
+    height: 625;
+}
+
+/* System Response Div */
+#dbResponse {
+    background-color: white;
+    height: 241px;
+    overflow-y: auto;
+    padding-top: 5px;
+}
+
+#tableLoadButtonTab {
+    float: right;
+}
+
+/* ------------------------- Tab System ------------------------------*/
+
+/* Style the tab content */
+.tab {
+    width: 965px;
+    margin: 0px auto -13px auto;
+}
+/* Hide all tabs */
+.tabcontent {
+    display: none;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: #414141;
+    border: solid black 3px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 100%;
+}
+/* Get rid of blue highlighting around selected element */
+.tab button:focus {
+    outline: none !important;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+    color: black;
+    background-color: #acacac;
+}
+/* Create an active/current tablink class */
+.tab button.active {
+    color: darkred;
+    background-color: white;
+    border-bottom: solid white 3px;
+}
+
+#userFunctionsButton {
+    margin-left: 79px;
+}
+
+/* ----------------------- Event Entry Form --------------------- */
+.entryFormDiv {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#entryFormDiv1 {  
+    margin-left: 10px;
+}
+
+#entryFormDiv2 {
+    float: right;
+    margin-right: 50px;
+}
+
+#entryFormDiv3 {
+    float: right;
+    margin-right: 40px;
+    margin-top: 18px;
+}
+
+#entryFormDiv4 {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#submitEvent {
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+#eventEntryCheckBoxDiv {
+    margin-bottom: 10px;
+    padding-top: 5px;
+
+}
+
+/* --------------------------- Event Query Form ------------------------ */
+.queryFormDiv {
+    margin-top: 10px;
+}
+
+.queryColumnCheckBox {
+    margin-left: 32px;
+}
+
+#queryFormDiv1 {
+    clear: both;
+    margin: 10px 0px 0px;
+    padding: 10px 10px 5px;
+}
+
+#queryFormDiv2 {
+    margin-left: 20px;
+}
+
+#queryFormDiv3 {
+    float: right;
+    margin-right: 45px;
+}
+
+#queryFormDiv4 {
+    float: right;
+    margin-right: 40px;
+}
+
+#colorDiv {
+    float: right;
+}
+
+#queryFormDiv5 {
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#submitQuery {
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+#eventQueryCheckBoxDiv {
+    margin-bottom: 20px;
+    padding: 5px 10px 0px;
+}
+
+/* -------------------------------- Group Query Form ---------------------------- */
+.groupQueryFormDiv {
+    margin-top: 6px;
+}
+
+.groupQueryFormDiv p{
+    margin: 0px;
+}
+
+.groupQueryColumnCheckBox {
+    margin-left: 32px;
+}
+
+#groupQueryFormDiv1 {
+    clear: both;
+    margin: 10px 0px 0px;
+    padding: 10px 10px 5px;
+}
+
+#groupQueryFormDiv2 {
+    padding-left: 10px;
+    width: 137px;
+}
+
+#groupQueryFormDiv3 {
+    float: right;
+    margin-right: 20px;
+    padding-left: 10px;
+    width: 157px;
+}
+
+#groupQueryFormDiv4 {
+    float: right;
+    margin-right: 20px;
+    padding-left: 10px;
+    width: 157px;
+}
+
+#groupQueryFormDiv5 {
+    float: right;
+    margin-right: 35px;
+    padding-left: 10px;
+    width: 157px;
+}
+
+#groupQueryFormDiv6 {
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#submitGroupQuery {
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+#eventGroupQueryCheckBoxDiv {
+    margin-bottom: 20px;
+    padding: 5px 10px 0px;
+}
+
+/* ------------------------------- Event Update Form -------------------------- */
+#updateFormDivUpByCol {
+    width: 363px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 0px 10px
+}
+
+#updateFormDivUpByID {
+    float: right;
+    margin-right: 35px;
+    margin-top: 10px;
+    padding: 0px 10px
+}
+
+#updateFormDiv1 {  
+    float: left;
+}
+
+#updateFormDiv2 {
+    float: right;
+    margin-top: 46px;
+    margin-bottom: 21px;
+}
+
+#updateByAnything_ValueInsert {
+    margin-bottom: 18px;
+}
+
+#updateFormDiv3 {
+    float: left;
+}
+
+#updateFormDiv4 {
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#updateFormDiv5 {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#submitUpdate {
+    margin-right: 10px;
+}
+
+#eventUpdateCheckBoxDiv {
+    padding: 5px 10px 0px;
+
+}
+
+/* ---------------------------------- Event Delete Form --------------------------- */
+.deleteFormDiv {
+    padding: 0px 20px 20px;
+    margin-top: 10px;
+}
+
+#deleteFormDivDelByID {
+    float: left;
+    margin-left: 110px;
+}
+
+#deleteFormDivDelByVal {
+    float: right;
+    margin-right: 100px;
+}
+
+#deleteFormDiv3 {
+    float: right;
+    text-align: center;  
+}
+
+#submitDelete {
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+#eventDeleteCheckBoxDiv {
+    padding: 5px 10px 0px;
+}
+
+/* ---------------------------------- User Functions--------------------------- */
+
+
+/* ---------------------------------- Admin Functions --------------------------- */
+.adminFuncFormDiv {
+    margin-top: 10px;
+}
+
+.adminFuncFormDiv p{
+    margin: 0px;
+}
+
+#adminFuncFormDiv1 {
+    margin-left: 50px;
+    padding-left: 10px;
+    width: 170px;
+}
+
+#adminFuncFormDiv2 {
+    float: right;
+    margin-right: 60px;
+    padding-left: 10px;
+    width: 157px;
+}
+
+#adminFuncFormDiv3 {
+    float: right;
+    margin-right: 50px;
+    padding-right: 10px;
+    width: 157px;
+}
+
+#adminFuncFormDiv3 button {
+    margin-left: 27px;
+}
+
+#adminFuncFormDiv3 p {
+    margin-left: 10px;
+}
+
+#adminFuncFormDiv4 {
+    text-align: center;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+
+#submitAdminFunc {
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+#eventAdminFuncCheckBoxDiv {
+    padding: 5px 15px 0px;
+}
